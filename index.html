@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9bb106327b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Personal Portfolio - Elias</title>
+</head>
+<body class="bg-neutral-900 my-font text-gray-400 sflex sflex-col">
+    <header class="p-6 lg:flex lg:justify-between lg:align-center lg:h-[5rem]">
+        <input type="checkbox" id="menu-toggle" class="peer hidden">
+        <div class="flex justify-between items-center">
+            <img src="/assets/images/common/Main_Logo.png" alt="Logo" class="w-[7.2rem] sm:w-[9rem] lg:w-[10rem]">
+            <label for="menu-toggle" class="text-3xl cursor-pointer lg:hidden peer-checked:hidden lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label for="menu-toggle" class="text-3xl cursor-pointer hidden peer-checked:visible lg:hidden">
+                <i class="fa-solid fa-x"></i>
+            </label>
+        </div>
+        <nav class="hidden peer-checked:block mt-4 lg:mt-0 lg:block lg:flex lg:flex-row lg:align-center">
+            <ul class="text-xl text-left ml-[6rem] lg:flex lg:w-full lg:ml-0">
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Home</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Projects</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Skills</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> About-me</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-wraper">
+            <div class="hero_text">
+            <h1 class="hero_title">Elias is a <span>web designer</span> and <span>front-end developer</span></h1>
+            <p class="hero_info"></p>
+            <button>Contact me!!</button>
+        </div>
+        <div class="hero_images">
+            <img src="/assets/images/common/profile.png" alt="Profile Photo" class="hero_img">
+            <p class="status">Currently working on Portfolio</p>
+        </div>
+        </div>
+        <div class="quote">
+            <p class="quote-text">
+                With great power comes great electricity bill
+            </p>
+            <p class="quote-author"> - Dr. Who</p>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <a href="#" class="view-all">View All &rarr;</a>
+        <div class="projects-wrapper">
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live </button>
+            </div>
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live </button>
+            </div>
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live </button>
+            </div>
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live</button>
+            </div>
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live </button>
+            </div>
+            <div class="card">
+                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>SCSS</span>
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                </div>
+                <h3 class="project-title">ChertNodes</h3>
+                <p class="project-description">
+                    Minecraft servers hosting 
+                </p>
+                <button>Live </button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills-decor"></div>
+        <div class="skill-card-wrapper">
+            <div class="skill-card">
+                <h3 class="skill-card_title">Languages</h3>
+                <p class="skill-list">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title">Languages</h3>
+                <p class="skill-list">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title">Languages</h3>
+                <p class="skill-list">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title">Languages</h3>
+                <p class="skill-list">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title">Languages</h3>
+                <p class="skill-list">TypeScript Lua Python JavaScript</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="about-me">
+        <h2 class="about-me-title">About-me</h2>
+        <div class="about-me-content">
+            <div class="about-text-wrapper">
+                <h3 class="about_title">Hello, i’m Elias!</h3>
+                <p class="about-me_text">
+                    I’m a self-taught front-end developer based in Kyiv, Ukraine. 
+                    I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
+
+                    Transforming my creativity and knowledge into a websites has been my passion for over a year. 
+                    I have been helping various clients to establish their presence online. 
+                    I always strive to learn about the newest technologies and frameworks.
+                </p>
+                <button>Read more &rarr;</button>
+            </div>
+            <div class="about-decoration">
+                <img src="/assets/images/common/profile_second.png" alt="profile Photo" class="about-img">
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="contact-title">contacts</h2>
+        <p class="contact-text">
+            I’m interested in freelance opportunities. However, if you have other request or question, 
+            don’t hesitate to contact me
+        </p>
+        <form action="submit.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+</form>
+    </section>
+    <footer class="footer">
+        <div class="details">
+            <div class="logo-wrapper">
+                <img src="/assets/images/common/Main_Logo.png" alt="logo">
+                <p class="mail">elias@elias-dev.ml</p>
+            </div>
+            <p class="footer-text">
+                Web designer and front-end developer
+            </p>
+        </div>
+        <div class="icons">
+            <h4>Media</h4>
+            <div class="icon-wrapper">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <span>Copyright</span>
+    </footer>
+    
+</body>
+</html>
