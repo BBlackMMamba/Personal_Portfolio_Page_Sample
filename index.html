@@ -34,113 +34,113 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
-        <div class="hero-wraper">
-            <div class="hero_text">
-            <h1 class="hero_title">Elias is a <span>web designer</span> and <span>front-end developer</span></h1>
-            <p class="hero_info"></p>
-            <button>Contact me!!</button>
+    <section class="hero flex flex-col items-center">
+    <div class="hero-wraper flex flex-col md:flex-row justify-center items-center p-6 gap-8">
+        <div class="hero_text flex flex-col justify-center text-center md:text-left max-w-lg gap-5 md:gap-8 lg:gap-8">
+            <h1 class="hero_title text-2xl lg:text-4xl">
+                Elias is a <span class="text-[#008F11]">web designer</span> and <span class="text-[#008F11]">front-end developer</span>
+            </h1>
+            <p class="hero_info text-lg mt-2 lg:text-2xl">He crafts responsive websites where technologies meet creativity</p>
+            <button class="font-semibold border border-[#008F11] text-white p-3 mt-4 w-fit self-center md:self-start lg:self-start">Contact me!!</button>
         </div>
-        <div class="hero_images">
-            <img src="/assets/images/common/profile.png" alt="Profile Photo" class="hero_img">
-            <p class="status">Currently working on Portfolio</p>
+        <div class="hero_images flex flex-col items-center">
+            <img src="/assets/images/common/profile_secend.png" alt="Profile Photo" class="hero_img max-w-xs w-[60%] h-auto md:w-[100%] lg:w-[100%]">
+            <p class="status text-center mt-2 border border-gray-400 p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11]"></i>Currently working on Portfolio</p>
         </div>
-        </div>
-        <div class="quote">
-            <p class="quote-text">
-                With great power comes great electricity bill
-            </p>
-            <p class="quote-author"> - Dr. Who</p>
-        </div>
-    </section>
-    <section class="projects">
-        <h2>Projects</h2>
-        <a href="#" class="view-all">View All &rarr;</a>
-        <div class="projects-wrapper">
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+    </div>
+    <div class="quote text-center mt-6 flex flex-col items-center p-10">
+        <p class="quote-text border border-gray-400 p-2 text-3xl">With great power comes great electricity bill</p>
+        <p class="quote-author border border-gray-400 p-2 self-end text-right text-2xl"> - Dr. Who</p>
+    </div>
+</section>
+    <section class="projects border mx-6">
+        <h2 class="title mx-6 mt-[-10rem] bg-neutral-900 p-4 inline-block text-5xl"><i class="fa-solid fa-hashtag fa-lg text-[#008F11]"></i>Projects</h2>
+        <div class="projects-wrapper my-9 p-6 grid grid-flow-col justify-center gap-9 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 ">
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_1.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live </button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_2.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live </button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_3.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live </button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_4.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live</button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_5.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live </button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
-            <div class="card">
-                <img src="/assets/images/common/project-1.jpg" alt="Project's Photo" class="card-photo">
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>SCSS</span>
-                    <span>PYTHON</span>
-                    <span>FLASK</span>
+            <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+                <img src="/assets/images/content/project_6.png" alt="Project's Photo" class="card-photo w-full h-48 object-cover">
+                <div class="tags px-3 py-4">
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">HTML</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">SCSS</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">PYTHON</span>
+                    <span class="border rounded border-yellow-400 w-fit bg-yellow-400 text-black">FLASK</span>
                 </div>
-                <h3 class="project-title">ChertNodes</h3>
-                <p class="project-description">
+                <h3 class="project-title font-bold text-xl mb-2">ChertNodes</h3>
+                <p class="project-description text-gray-300 text-base">
                     Minecraft servers hosting 
                 </p>
-                <button>Live </button>
+                <button class="font-semibold border border-[#008F11] text-white py-2 px-6 mt-4 hover:border-yellow-400 hover:bg-yellow-400 hover:text-[#008F11] hover:font-bold focus:scale-95">Live </button>
             </div>
+
             
         </div>
     </section>
