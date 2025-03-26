@@ -26,14 +26,14 @@
         </div>
         <nav class="hidden peer-checked:block mt-4 lg:mt-0 lg:block lg:flex lg:flex-row lg:align-center">
             <ul class="text-xl text-left ml-[6rem] lg:flex lg:w-full lg:ml-0">
-                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Home</a></li>
-                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Projects</a></li>
-                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Skills</a></li>
-                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Contact</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#hero" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Home</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#projects" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Projects</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#skills" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Skills</a></li>
+                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#contact" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="hero flex flex-col items-center">
+    <section class="hero flex flex-col items-center" id="hero">
     <div class="hero-wraper flex flex-col md:flex-row justify-center items-center p-6 gap-8">
         <div class="hero_text flex flex-col justify-center text-center md:text-left max-w-lg gap-5 md:gap-8 lg:gap-8">
             <h1 class="hero_title text-2xl lg:text-4xl">
@@ -52,7 +52,7 @@
         <p class="quote-author border border-gray-400 p-2 self-end text-right text-2xl"> - Dr. Who</p>
     </div>
 </section>
-    <section class="projects border mx-6 my-14">
+    <section class="projects border mx-6 my-14" id="projects">
         <h2 class="title mx-6 mt-[-10rem] bg-neutral-900 p-4 inline-block text-5xl"><i class="fa-solid fa-hashtag fa-lg text-[#008F11]"></i>Projects</h2>
         <div class="projects-wrapper my-9 p-6 grid grid-flow-col justify-center gap-9 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 ">
             <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
@@ -143,7 +143,7 @@
             
         </div>
     </section>
-<section class="skills relative flex flex-col items-center lg:flex-row m-9 justify-center my-14">
+<section class="skills relative flex flex-col items-center lg:flex-row m-9 justify-center my-14" id="skills">
     <div class="skills-decor absolute inset-0 w-full h-full -z-10">
         <img src="assets/images/common/dots.png" alt="Dot grid" 
             class="absolute w-[10%] top-2 left-12 opacity-20 -rotate-[40deg]">
@@ -186,7 +186,7 @@
         </div>
     </div>
 </section>
-    <section class="contact bg-transparent text-gray-400 p-8 rounded-lg shadow-lg w-full max-w-xl mx-auto hover:bg-gray-800 hover:text-green-400 transition-all duration-300 my-14">
+    <section class="contact bg-transparent text-gray-400 p-8 rounded-lg shadow-lg w-full max-w-xl mx-auto hover:bg-gray-800 hover:text-green-400 transition-all duration-300 my-14" id="contact">
     <h2 class="contact-title text-3xl font-mono font-bold mb-4">Contact Me</h2>
     <p class="contact-text text-base font-mono mb-6">
         I’m interested in freelance opportunities. However, if you have other requests or questions, 
