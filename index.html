@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Personal Portfolio - Elias</title>
 </head>
-<body class="bg-neutral-900 my-font text-gray-400 sflex sflex-col">
+<body class="bg-neutral-900 my-font text-gray-400 flex flex-col">
     <header class="p-6 lg:flex lg:justify-between lg:align-center lg:h-[5rem]">
         <input type="checkbox" id="menu-toggle" class="peer hidden">
         <div class="flex justify-between items-center">
@@ -29,7 +29,6 @@
                 <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Home</a></li>
                 <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Projects</a></li>
                 <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Skills</a></li>
-                <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> About-me</a></li>
                 <li class="group hover:text-[#008F11] hover:font-semibold transition hover:delay-150 lg:grow-1"><a href="#" class="block p-2"> <i class="fa-solid fa-hashtag fa-lg text-[#008F11] group-hover:text-[yellow] lg:hidden"></i> Contact</a></li>
             </ul>
         </nav>
@@ -41,7 +40,7 @@
                 Elias is a <span class="text-[#008F11]">web designer</span> and <span class="text-[#008F11]">front-end developer</span>
             </h1>
             <p class="hero_info text-lg mt-2 lg:text-2xl">He crafts responsive websites where technologies meet creativity</p>
-            <button class="font-semibold border border-[#008F11] text-white p-3 mt-4 w-fit self-center md:self-start lg:self-start">Contact me!!</button>
+            <button class="font-semibold border border-[#008F11] transition hover:bg-[#008F11] focus:scale-95 text-white p-3 mt-4 w-fit self-center md:self-start lg:self-start">Contact me!!</button>
         </div>
         <div class="hero_images flex flex-col items-center">
             <img src="/assets/images/common/profile_secend.png" alt="Profile Photo" class="hero_img max-w-xs w-[60%] h-auto md:w-[100%] lg:w-[100%]">
@@ -53,7 +52,7 @@
         <p class="quote-author border border-gray-400 p-2 self-end text-right text-2xl"> - Dr. Who</p>
     </div>
 </section>
-    <section class="projects border mx-6">
+    <section class="projects border mx-6 my-14">
         <h2 class="title mx-6 mt-[-10rem] bg-neutral-900 p-4 inline-block text-5xl"><i class="fa-solid fa-hashtag fa-lg text-[#008F11]"></i>Projects</h2>
         <div class="projects-wrapper my-9 p-6 grid grid-flow-col justify-center gap-9 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 ">
             <div class="card p-9 hover:bg-neutral-800 hover:shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
@@ -144,91 +143,94 @@
             
         </div>
     </section>
-    <section class="skills">
-        <div class="skills-decor"></div>
-        <div class="skill-card-wrapper">
-            <div class="skill-card">
-                <h3 class="skill-card_title">Languages</h3>
-                <p class="skill-list">TypeScript Lua Python JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <h3 class="skill-card_title">Languages</h3>
-                <p class="skill-list">TypeScript Lua Python JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <h3 class="skill-card_title">Languages</h3>
-                <p class="skill-list">TypeScript Lua Python JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <h3 class="skill-card_title">Languages</h3>
-                <p class="skill-list">TypeScript Lua Python JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <h3 class="skill-card_title">Languages</h3>
-                <p class="skill-list">TypeScript Lua Python JavaScript</p>
-            </div>
-            
-        </div>
-    </section>
-    <section class="about-me">
-        <h2 class="about-me-title">About-me</h2>
-        <div class="about-me-content">
-            <div class="about-text-wrapper">
-                <h3 class="about_title">Hello, i’m Elias!</h3>
-                <p class="about-me_text">
-                    I’m a self-taught front-end developer based in Kyiv, Ukraine. 
-                    I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
+<section class="skills relative flex flex-col items-center lg:flex-row m-9 justify-center my-14">
+    <div class="skills-decor absolute inset-0 w-full h-full -z-10">
+        <img src="/assets/images/common/dots.png" alt="Dot grid" 
+            class="absolute w-[10%] top-2 left-12 opacity-20 -rotate-[40deg]">
+        <img src="/assets/images/common/Rectangle 24.png" alt="Rectangle" 
+            class="absolute w-[10%] top-16 right-16 rotate-12 opacity-50 -z-10">
+        <img src="/assets/images/common/logo.png" alt="Logo" 
+            class="absolute w-[10%] bottom-1 left-1/3 -rotate-[195deg] opacity-20">
+    </div>
 
-                    Transforming my creativity and knowledge into a websites has been my passion for over a year. 
-                    I have been helping various clients to establish their presence online. 
-                    I always strive to learn about the newest technologies and frameworks.
-                </p>
-                <button>Read more &rarr;</button>
-            </div>
-            <div class="about-decoration">
-                <img src="/assets/images/common/profile_second.png" alt="profile Photo" class="about-img">
+    <div class="skill-card-wrapper relative flex justify-center lg:flex-row md:flex-row md:gap-9 lg:gap-9 w-full -z-20">
+        <div class="col-1">
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
             </div>
         </div>
-    </section>
-    <section class="contact">
-        <h2 class="contact-title">contacts</h2>
-        <p class="contact-text">
-            I’m interested in freelance opportunities. However, if you have other request or question, 
-            don’t hesitate to contact me
+        <div class="col-2 space-y-9">
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
+            </div>
+        </div>
+        <div class="col-3 flex flex-col space-y-9">
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-card_title border">Languages</h3>
+                <p class="skill-list border p-2">TypeScript Lua Python JavaScript</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="contact bg-transparent text-gray-400 p-8 rounded-lg shadow-lg w-full max-w-xl mx-auto hover:bg-gray-800 hover:text-green-400 transition-all duration-300 my-14">
+    <h2 class="contact-title text-3xl font-mono font-bold mb-4">Contact Me</h2>
+    <p class="contact-text text-base font-mono mb-6">
+        I’m interested in freelance opportunities. However, if you have other requests or questions, 
+        don’t hesitate to contact me.
+    </p>
+    <form action="submit.php" method="POST" class="space-y-4">
+        <label for="name" class="block text-lg font-mono">Name:</label>
+        <input type="text" id="name" name="name" required class="w-full p-2 bg-transparent border-2 border-gray-700 rounded text-gray-400 focus:outline-none focus:border-green-400 hover:text-green-400">
+
+        <label for="email" class="block text-lg font-mono">Email:</label>
+        <input type="email" id="email" name="email" required class="w-full p-2 bg-transparent border-2 border-gray-700 rounded text-gray-400 focus:outline-none focus:border-green-400 hover:text-green-400">
+
+        <label for="message" class="block text-lg font-mono">Message:</label>
+        <textarea id="message" name="message" required class="w-full p-2 bg-transparent border-2 border-gray-700 rounded text-gray-400 focus:outline-none focus:border-green-400 hover:text-green-400"></textarea>
+
+        <button type="submit" class="w-full p-2 bg-gray-700 hover:bg-green-500 text-gray-400 hover:text-gray-900 rounded mt-4 font-mono font-bold">Send</button>
+    </form>
+</section>
+    <footer class="footer bg-gray-800 text-gray-400 py-8 px-6 flex flex-col items-center justify-center text-center">
+    <div class="details grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="logo-wrapper flex flex-col items-center">
+            <img src="/assets/images/common/Main_Logo.png" alt="logo" class="w-24 mb-2">
+            <p class="mail text-sm font-light">elias@elias-dev.ml</p>
+        </div>
+        <p class="footer-text text-sm font-medium mt-4 lg:mt-0">
+            Web designer and front-end developer
         </p>
-        <form action="submit.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-</form>
-    </section>
-    <footer class="footer">
-        <div class="details">
-            <div class="logo-wrapper">
-                <img src="/assets/images/common/Main_Logo.png" alt="logo">
-                <p class="mail">elias@elias-dev.ml</p>
-            </div>
-            <p class="footer-text">
-                Web designer and front-end developer
-            </p>
-        </div>
         <div class="icons">
-            <h4>Media</h4>
-            <div class="icon-wrapper">
-                <span></span>
-                <span></span>
-                <span></span>
+            <h4 class="text-lg font-bold mb-2">Media</h4>
+            <div class="icon-wrapper flex justify-center gap-4">
+                <a href="#" class="text-gray-400 hover:text-gray-300 hover:font-bold transition-all duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-300 hover:font-bold transition-all duration-300">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-300 hover:font-bold transition-all duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
             </div>
         </div>
-        <span>Copyright</span>
-    </footer>
+    </div>
+    <span class="block mt-6 text-sm font-light">Copyright &copy; 2025</span>
+</footer>
     
 </body>
 </html>
